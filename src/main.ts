@@ -8,5 +8,8 @@ if (environment.production) {
   enableProdMode();
 }
 
+import { defineCustomElements } from 'sa-common-components/loader';
+
 platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.log(err));
+defineCustomElements(window);

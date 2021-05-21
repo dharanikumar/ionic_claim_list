@@ -1,5 +1,8 @@
 {
   "name": "ionic_claim_list",
-  "integrations": {},
+  "integrations": {
+    "cordova": {},
+    "capacitor": {}
+  },
   "type": "angular"
 }
